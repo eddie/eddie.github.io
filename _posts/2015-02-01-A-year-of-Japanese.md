@@ -9,7 +9,7 @@ The deeper I get into learning Japanese, I find the concept of learning a langua
 
 Being a Software Developer, I am used to learning quickly and moving fast, this is very different to learning a natural language, it takes dedication and time.
 
-<img class='img-right'  src='{% asset_path downthehole.jpg %}'  />
+<img class='img-right'  src='/assets/images/downthehole.jpg'  />
 
 I started studying Japanese about a year ago, I have studied every day for the past year in some shape or form without fail. Whilst being unwell, on holiday or under a tight dead line with work.
 
