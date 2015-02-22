@@ -28,4 +28,4 @@ This blog doesn't get updated as often as I would like, but you can contact me o
 
 ## The Site
 
-This site uses [Jekyll](https://github.com/mojombo/jekyll), thanks Jekyll team :)
+This site uses [Jekyll](https://github.com/mojombo/jekyll) and is hosted on Github, big thanks Jekyll and the Github team :)
