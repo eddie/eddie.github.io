@@ -9,7 +9,7 @@ even though most applications I would write would most likely perform just as we
 
 I had seen a lot of buzz around Go over the past couple of years and with a recent change in career path I decided to spend some time and start to play around with it.
 
-<img height=200 class='img-right'  src='/assets/images/gopher.png'  />
+![](/assets/images/gopher.png)
 
 To get familiar with Go, I started to implement common algorithms and data structures. You can find them in my [goalg](https://github.com/eddie/goalg) repository on github. As the README says, be-ware.. This code isn't production ready and in most cases likely to be broken or half-implemented.
 
@@ -19,7 +19,8 @@ One of the many benefits of coding in Go is the strict rules enforced when runni
 
 # Hit the ground running
 
-<img  class='img-left'  src='/assets/images/gorun.png'  />
+![](/assets/images/gorun.png)
+
 When I get an idea for something I want to work on, if time permits I usually just dive straight in and start working on a prototype. My usual process is sketch something out on paper, write a small prototype in some interpreted language and then when I'm happy with structure, depending on the project I'll move on over to C (probably crazy but who cares!)
 
 
@@ -27,7 +28,8 @@ I would then find my self going through a set of hurdles and common mistakes to 
 
 # Best Friends
 
-<img  class='img-right'  src='/assets/images/friends.png'  />
+![](/assets/images/friends.png)
+
 This is where Go steps in and wins my heart. I no longer have to worry (too much) about memory management and go has a fantastic [standard library](http://golang.org/pkg/) with the source quickly available for each package. A great learning resource and I can start building projects with different requirements often using only the standard library. If I can't find the solution built-in, the [go-wiki](https://code.google.com/p/go-wiki/wiki/Projects) usually contains what I'm looking for.
 
 # Using Go Packages
