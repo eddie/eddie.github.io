@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 
-ようこそ, I'm Eddie, a Web/Backend Developer who works for [Gluru](https://gluru.co/). I am interested languages, tea, [polyphasic sleeping](http://en.wikipedia.org/wiki/Polyphasic_sleep) and productivity. Always trying to make more time in the day to explore new things.
+I'm Eddie, a Web/Backend Developer who works for [Gluru](https://gluru.co/). I am interested languages, tea, [polyphasic sleeping](http://en.wikipedia.org/wiki/Polyphasic_sleep) and productivity. Always trying to make more time in the day to explore new things.
 
 This blog doesn't get updated as often as I would like, but you can contact me on twitter, [@moukiio](https://twitter.com/moukiio).
 
 # 日本語の自己紹介
 
-皆さん、こんにちは、初めまして。私はエディーと申します、Pythonとウェブ開発をしていて、イギリス南西出身です。
+皆さん、よこそう、初めまして。私はエディーと申します、Pythonとウェブ開発をしていて、イギリス南西出身です。
 １年間ぐらい日本語を勉強していますが、まだまだです。 私の趣味はお茶を飲むことやプログラミングをすることなどです。
 お茶は美味しいので、私は色々なお茶を飲んでみることが好きで、私の一番好きなお茶はミントと緑茶です。
 英語だけを話しているので、日本語を話せるようになりたいです。
