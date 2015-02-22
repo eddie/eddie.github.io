@@ -11,6 +11,9 @@ github_username:  eddie
 # Build settings
 markdown: kramdown
 
+sass:
+  sass_dir: assets/styles
+
 assets:
   sources:
     - _assets/styles
