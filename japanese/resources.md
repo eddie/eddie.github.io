@@ -4,12 +4,24 @@ layout: page
 permalink: /jp-resources/
 ---
 
-Having tried many different ways of studying Japanese, I have found that a lot of traditional methods make it difficult to gain motivation to continue.. More recently I have begun trying to imerse myself in the language, and living in a small town on the coast of Cornwall- this can be quite difficult.
+Having tried many different ways of studying Japanese, I have found that a lot of traditional methods make it difficult to gain motivation to continue.. More recently I have begun trying to immerse myself in the language, and living in a small town on the coast of Cornwall- this can be quite difficult.
 
-I spend most of my day in a Web browser, so it seemed logical to try and do most of my imersion here. Below is some resources I've collected, some I use daily and some I just browse whilst taking lunch.
+I spend most of my day in a Web browser, so it seemed logical to try and do most of my immersion here. Below is some resources I've collected, some I use daily and some I just browse whilst taking lunch.
 
+# General
 
-# Technical
+| Site   |  Description |  Tags |
+|:----------:|-------------|:------:|
+| [tatoeba](http://tatoeba.org) | Lookup translations of sentences in many languages | translation |
+| [JLPT N5 Grammar] (https://en.wikibooks.org/wiki/JLPT_Guide/JLPT_N5_Grammar) | JLPT N5 Grammar list on Wikibooks | grammar |
+| [JLPT N4 Grammar] (https://en.wikibooks.org/wiki/JLPT_Guide/JLPT_N4_Grammar) | JLPT N4 Grammar list on Wikibooks | grammar |
+| [JLPT N3 Grammar] (https://en.wikibooks.org/wiki/JLPT_Guide/JLPT_N3_Grammar) | JLPT N3 Grammar list on Wikibooks | grammar |
+| [JLPT N2 Grammar] (https://en.wikibooks.org/wiki/JLPT_Guide/JLPT_N2_Grammar) | JLPT N2 Grammar list on Wikibooks | grammar |
+| [JLPT N1 Grammar] (https://en.wikibooks.org/wiki/JLPT_Guide/JLPT_N1_Grammar) | JLPT N1 Grammar list on Wikibooks | grammar |
+
+# Immersion
+
+## Technical
 
 | Site   |  Description |  Tags |
 |:----------:|-------------|:------:|
@@ -17,7 +29,7 @@ I spend most of my day in a Web browser, so it seemed logical to try and do most
 | [mozaic.fm](http://mozaic.fm/) | Web technology postcast | reading, podcast, web |
 | [wired.jp](https://wired.jp) | Wired technology blog in Japanese | reading, technology |
 
-# Casual
+## Casual
 
 | Site   |  Description |  Tags |
 |:----------:|-------------|:------:|
