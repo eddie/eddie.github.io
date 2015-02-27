@@ -12,7 +12,7 @@ I spend most of my day in a Web browser, so it seemed logical to try and do most
 # Technical
 
 | Site   |  Description |  Tags |
-|----------|-------------|:------:|
+|:----------:|-------------|:------:|
 | [qitta.com](http://qiita.com/tags) | Memos and writings on web technologies from it's users | reading |
 | [mozaic.fm](http://mozaic.fm/) | Web technology postcast | reading, podcast, web |
 | [wired.jp](https://wired.jp) | Wired technology blog in Japanese | reading, technology |
@@ -20,7 +20,7 @@ I spend most of my day in a Web browser, so it seemed logical to try and do most
 # Casual
 
 | Site   |  Description |  Tags |
-|----------|-------------|:------:|
+|:----------:|-------------|:------:|
 | [lifehacker.jp](http://www.lifehacker.jp/) | Lifehacker tips, in Japanese | reading, lifestyle |
 | [yahoo.co.jp](http://yahoo.co.jp/)| Yahoo new's etc in Japanese | reading, lifestyle |
 | [cookpad.com](http://cookpad.com/) | Delicious cooking recipes | cooking, reading |
