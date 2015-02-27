@@ -9,10 +9,13 @@ Having tried many different ways of studying Japanese, I have found that a lot o
 I spend most of my day in a Web browser, so it seemed logical to try and do most of my imersion here. Below is some resources I've collected, some I use daily and some I just browse whilst taking lunch.
 
 
+# Technical
+
+- [Qitta.com](http://qiita.com/tags)
+
 # Reading
 
-[Yahoo.co.jp](https://yahoo.co.jp) - 
-[Qitta.com](http://qiita.com/tags)
+- [Yahoo.co.jp](https://yahoo.co.jp) 
 
 # Listening
 
