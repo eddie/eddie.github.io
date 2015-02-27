@@ -19,9 +19,11 @@ I spend most of my day in a Web browser, so it seemed logical to try and do most
 
 # Casual
 
-- [lifehacker.jp](https://lifehacker.jp/) [reading, lifestyle]
-- [yahoo.co.jp](https://yahoo.co.jp/) [reading, lifestyle]
-- [cookpad.com](http://cookpad.com/) [cooking, reading]
-- [kotaku.jp](http://www.kotaku.jp/) [gaming, reading]
+| Site   |  Description |  Tags |
+|----------|-------------|:------:|
+| [lifehacker.jp](https://lifehacker.jp/) | Lifehacker tips, in Japanese | reading, lifestyle |
+| [yahoo.co.jp](https://yahoo.co.jp/)| Yahoo new's etc in Japanese | reading, lifestyle |
+| [cookpad.com](http://cookpad.com/) | Delicious cooking recipes | cooking, reading |
+| [kotaku.jp](http://www.kotaku.jp/) | Kotaku gaming news in Japanese | gaming, reading |
 
 // WIP
