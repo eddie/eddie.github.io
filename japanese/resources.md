@@ -8,7 +8,7 @@ Having tried many different ways of studying Japanese, I have found that a lot o
 
 I spend most of my day in a Web browser, so it seemed logical to try and do most of my immersion here. Below is some resources I've collected, some I use daily and some I just browse whilst taking lunch.
 
-# General
+# Grammar and Reference
 
 | Site   |  Description |  Tags |
 |:----------:|-------------|:------:|
@@ -18,9 +18,7 @@ I spend most of my day in a Web browser, so it seemed logical to try and do most
 | [JLPT N3 Grammar](https://en.wikibooks.org/wiki/JLPT_Guide/JLPT_N3_Grammar) | JLPT N3 Grammar list on Wikibooks | grammar |
 
 
-# Immersion
-
-## Technical
+# Immersion (Technical)
 
 | Site   |  Description |  Tags |
 |:----------:|-------------|:------:|
@@ -28,7 +26,7 @@ I spend most of my day in a Web browser, so it seemed logical to try and do most
 | [mozaic.fm](http://mozaic.fm/) | Web technology postcast | reading, podcast, web |
 | [wired.jp](https://wired.jp) | Wired technology blog in Japanese | reading, technology |
 
-## Casual
+# Immersion (Casual)
 
 | Site   |  Description |  Tags |
 |:----------:|-------------|:------:|
