@@ -21,9 +21,19 @@ I spend most of my day in a Web browser, so it seemed logical to try and do most
 
 | Site   |  Description |  Tags |
 |----------|-------------|:------:|
-| [lifehacker.jp](https://lifehacker.jp/) | Lifehacker tips, in Japanese | reading, lifestyle |
-| [yahoo.co.jp](https://yahoo.co.jp/)| Yahoo new's etc in Japanese | reading, lifestyle |
+| [lifehacker.jp](http://www.lifehacker.jp/) | Lifehacker tips, in Japanese | reading, lifestyle |
+| [yahoo.co.jp](http://yahoo.co.jp/)| Yahoo new's etc in Japanese | reading, lifestyle |
 | [cookpad.com](http://cookpad.com/) | Delicious cooking recipes | cooking, reading |
 | [kotaku.jp](http://www.kotaku.jp/) | Kotaku gaming news in Japanese | gaming, reading |
 
+
+<script>
+var links = document.links;
+
+for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+     if (links[i].hostname != window.location.hostname) {
+            links[i].target = '_blank';
+     } 
+}
+</script>
 // WIP
