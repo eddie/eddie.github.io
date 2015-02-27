@@ -11,9 +11,11 @@ I spend most of my day in a Web browser, so it seemed logical to try and do most
 
 # Technical
 
-- [qitta.com](http://qiita.com/tags) [reading]
-- [mozaic.fm](http://mozaic.fm/) [reading, podcast, web]
-- [wired.jp](https://wired.jp) [reading, technology]
+| Site   |  Description |  Tags |
+|----------|-------------|:------:|
+| [qitta.com](http://qiita.com/tags) | Memos and writings on web technologies from it's users | reading |
+| [mozaic.fm](http://mozaic.fm/) | Web technology postcast | reading, podcast, web |
+| [wired.jp](https://wired.jp) | Wired technology blog in Japanese | reading, technology |
 
 # Casual
 
@@ -21,6 +23,5 @@ I spend most of my day in a Web browser, so it seemed logical to try and do most
 - [yahoo.co.jp](https://yahoo.co.jp/) [reading, lifestyle]
 - [cookpad.com](http://cookpad.com/) [cooking, reading]
 - [kotaku.jp](http://www.kotaku.jp/) [gaming, reading]
-
 
 // WIP
