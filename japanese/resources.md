@@ -11,16 +11,16 @@ I spend most of my day in a Web browser, so it seemed logical to try and do most
 
 # Technical
 
-- [Qitta.com](http://qiita.com/tags)
+- [qitta.com](http://qiita.com/tags) [reading]
+- [mozaic.fm](http://mozaic.fm/) [reading, podcast, web]
+- [wired.jp](https://wired.jp) [reading, technology]
 
-# Reading
+# Casual
 
-- [Yahoo.co.jp](https://yahoo.co.jp) 
-
-# Listening
-
-
-# Games
+- [lifehacker.jp](https://lifehacker.jp/) [reading, lifestyle]
+- [yahoo.co.jp](https://yahoo.co.jp/) [reading, lifestyle]
+- [cookpad.com](http://cookpad.com/) [cooking, reading]
+- [kotaku.jp](http://www.kotaku.jp/) [gaming, reading]
 
 
 // WIP
