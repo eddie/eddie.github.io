@@ -16,8 +16,7 @@ I spend most of my day in a Web browser, so it seemed logical to try and do most
 | [JLPT N5 Grammar] (https://en.wikibooks.org/wiki/JLPT_Guide/JLPT_N5_Grammar) | JLPT N5 Grammar list on Wikibooks | grammar |
 | [JLPT N4 Grammar] (https://en.wikibooks.org/wiki/JLPT_Guide/JLPT_N4_Grammar) | JLPT N4 Grammar list on Wikibooks | grammar |
 | [JLPT N3 Grammar] (https://en.wikibooks.org/wiki/JLPT_Guide/JLPT_N3_Grammar) | JLPT N3 Grammar list on Wikibooks | grammar |
-| [JLPT N2 Grammar] (https://en.wikibooks.org/wiki/JLPT_Guide/JLPT_N2_Grammar) | JLPT N2 Grammar list on Wikibooks | grammar |
-| [JLPT N1 Grammar] (https://en.wikibooks.org/wiki/JLPT_Guide/JLPT_N1_Grammar) | JLPT N1 Grammar list on Wikibooks | grammar |
+
 
 # Immersion
 
