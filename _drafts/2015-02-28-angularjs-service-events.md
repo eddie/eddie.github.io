@@ -12,7 +12,7 @@ It had been a while since I developed an angular application, and after doing so
 
 The requirements I had for service callbacks were:
 
-- No magic between service/controller, events should be clear to follow.
+- Reduce coupling between components
 - Avoid using angular event anti-patterns
 - Ability to easily add callbacks to service
 - Service should declare which callbacks it supported
