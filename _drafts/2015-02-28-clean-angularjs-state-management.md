@@ -21,11 +21,14 @@ The requirements I had for service callbacks were:
 
 Initially, I took a leaf out of the angular-app book, and a service would maintain a list of callbacks for specific events, a controller could then add a callback and they would be called appropriately.
 
-This had a couple of issues:
+This worked well, but had a couple issues:
 
 - New service methods meant adding a new callback
+- Callback code coupled with service
 
 A crude implementation of this looks a little like this:
+
+service.js
 
 ```javascript
 angular.module('myapp.security').factory('SecurityService', function($log){
@@ -58,4 +61,16 @@ var service = {
 
 ```
 
-# Final Solution (Messages)
+This could then be used like so:
+
+```javascript
+// Add account token from localStorage
+SecurityService.callbacks.onLogout.push(function(){
+  delete $localStorage['token'];
+  $state.go('login');
+});
+```
+
+# Publish Subscribe Approach
+
+I liked the previous approach, but I wanted something a little more managable. I thought about using $on and $broadcast, but knew things could get pretty messy if used incorrectly. So after some research, it seemed using channels would be an ideal approach to meet my requirements.
