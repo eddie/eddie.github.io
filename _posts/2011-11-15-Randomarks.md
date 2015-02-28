@@ -10,7 +10,7 @@ You can find the extension here:
 <a href='https://chrome.google.com/webstore/detail/randomarks/hieaieghplolnngfijfjnmiiaephdnbm?hl=en-GB'>Randomarks</a>
 
 And I've put the source up on Github:
-<a href='https://github.com/Cyclo/Randomark
-'>https://github.com/Cyclo/Randomark</a>
+<a href='https://github.com/eddie/Randomark
+'>https://github.com/eddie/Randomark</a>
 
 Overall it worked out pretty well, feel free to join in and send a pull request. Any suggestions or improvements mention me on twitter or leave a comment below.
