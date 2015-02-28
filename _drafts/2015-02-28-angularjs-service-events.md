@@ -13,7 +13,7 @@ It had been a while since I developed an angular application, and after doing so
 The requirements I had for service callbacks were:
 
 - No magic between service/controller, events should be clear to follow.
-- Avoid using $on/$broadcast anti-patterns
+- Avoid using angular event anti-patterns
 - Ability to easily add callbacks to service
 - Service should declare which callbacks it supported
 
@@ -71,6 +71,18 @@ SecurityService.callbacks.onLogout.push(function(){
 });
 ```
 
-# Publish Subscribe Approach
+# Publ/Sub Approach
 
 I liked the previous approach, but I wanted something a little more managable. I thought about using $on and $broadcast, but knew things could get pretty messy if used incorrectly. So after some research, it seemed using channels would be an ideal approach to meet my requirements.
+
+It would allow me to keep a strict API for the events exposed by a service and help move the event implementation out of the service iteself. 
+
+
+
+## Unsubscribe on $destroy
+
+# Further reading
+
+https://eburley.github.io/2013/01/31/angularjs-watch-pub-sub-best-practices.html
+http://codingsmackdown.tv/blog/2013/04/29/hailing-all-frequencies-communicating-in-angularjs-with-the-pubsub-design-pattern/
+
