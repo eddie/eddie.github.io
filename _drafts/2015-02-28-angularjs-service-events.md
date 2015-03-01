@@ -176,6 +176,22 @@ angular.module('myApp.view1', ['ngRoute', 'myApp.security'])
       onLogoutCleanup();
     });
 });
+```
 
-### Unsubscribe on $destroy
+
+# Summary and Future improvements
+
+So this implementation is a little messy, and could do with some improvements. I would like to move more of the setup into createChannel, but I wonder if this could lead us back to the initial problem and create a confusing flow.
+
+I imagine the channel setup could eventually look like this:
+
+```javascript
+
+angular.module('myApp.security', ['ng.channel'])
+  .service('SecurityChannel', function($rootScope, EventChannel) {
+
+    return EventChannel.create("SecurityChannel", ["onLogout"]);
+});
+```
+
 
