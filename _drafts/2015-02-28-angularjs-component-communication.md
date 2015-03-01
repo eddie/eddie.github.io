@@ -194,7 +194,7 @@ angular.module('myApp.security', ['ng.channel'])
 });
 ```
 
-That's it for now, please [submit an issue](https://github.com/eddie/eddie.github.io/issues) if you see any problems with this post or can offer any suggestions. 
+That's it for now, please [submit an issue](https://github.com/eddie/eddie.github.io/issues) if you see any problems with this post or can offer any suggestions.  I have also created a package for this [angular-channel](https://github.com/eddie/angular-channel), it shouldn't be used in this state- but I hope to build upon this soon. All contributions welcome of course. 
 
 
 
