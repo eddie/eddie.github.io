@@ -157,8 +157,25 @@ angular.module('myApp.security').service('SecurityService', function(SecurityCha
 
 ## Using the channel
 
+```javascript
+
+angular.module('myApp.view1', ['ngRoute', 'myApp.security'])
+
+.controller('View1Ctrl', function($scope, $log, SecurityChannel, SecurityService) {
+
+    $scope.logout = function() {
+      SecurityService.logout();
+    };
+
+    var onLogoutCleanup = SecurityChannel.onLogout($scope, function(item){
+      $log.info("Logged out!");
+    });
+
+    $scope.$on('$destroy', function() {
+      $log.debug("Removing handler");
+      onLogoutCleanup();
+    });
+});
+
 ### Unsubscribe on $destroy
-
-# Further reading
-
 
