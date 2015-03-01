@@ -127,6 +127,34 @@ angular.module('ng.channel', [])
 
 ## Create your own channel service
 
+```javascript
+angular.module('myApp.security', ['ng.channel'])
+  .service('SecurityChannel', function($rootScope, EventChannel) {
+
+    var serviceChannel = EventChannel.create("SecurityChannel");
+    var _LOGOUT_EVENT_ = 'logout';
+
+    return {
+      logout: function (data) {
+        serviceChannel.emit(_LOGOUT_EVENT_, data);
+      },
+      onLogout: function ($scope, handler) {
+        return serviceChannel.register($scope, _LOGOUT_EVENT_, handler);
+      }
+    }
+  });
+
+angular.module('myApp.security').service('SecurityService', function(SecurityChannel) {
+    return {
+      logout: function() {
+        // Do actual logout call
+        // Notify
+        SecurityChannel.logout();
+      }
+    };
+  });
+```
+
 ## Using the channel
 
 ### Unsubscribe on $destroy
