@@ -17,7 +17,7 @@ The requirements I had for service callbacks were:
 - Ability to easily add callbacks to service
 - Service should declare which callbacks it supported
 
-## Initial Attempt (Callback array)
+## First Attempt: Callbacks
 
 Initially, I took a leaf out of the angular-app book, and a service would maintain a list of callbacks for specific events, a controller could then add a callback and they would be called appropriately.
 
