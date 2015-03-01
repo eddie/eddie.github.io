@@ -17,7 +17,7 @@ The requirements I had for service callbacks were:
 - Ability to easily add callbacks to service
 - Service should declare which callbacks it supported
 
-# Initial Attempt (Callback array)
+## Initial Attempt (Callback array)
 
 Initially, I took a leaf out of the angular-app book, and a service would maintain a list of callbacks for specific events, a controller could then add a callback and they would be called appropriately.
 
@@ -66,7 +66,6 @@ This could then be used like so:
 
 ```javascript
 
-// Add account token from localStorage
 SecurityService.callbacks.onLogout.push(function(){
   delete $localStorage['token'];
   $state.go('login');
@@ -74,7 +73,7 @@ SecurityService.callbacks.onLogout.push(function(){
 
 ```
 
-# Publ/Sub Approach
+## Pub/Sub Approach
 
 I liked the previous approach, but I wanted something a little more managable. I thought about using $on and $broadcast, but knew things could get pretty messy if used incorrectly. So after some research, it seemed using channels would be an ideal approach to meet my requirements.
 
@@ -82,9 +81,9 @@ It would allow me to keep a strict API for the events exposed by a service and h
 
 Based on the work of [Eric Burley](https://eburley.github.io/2013/01/31/angularjs-watch-pub-sub-best-practices.html) and [Jim Lavin](http://codingsmackdown.tv/blog/2013/04/29/hailing-all-frequencies-communicating-in-angularjs-with-the-pubsub-design-pattern/) I created a reusable service to handle inter-component communication with AngularJS.
 
-## Pub/Sub Channel Factory
+## Channel Factory
 
-Below is a rough example of the channel factory, it needs improvements, but allows for quick channel creation.
+Below is a rough example of the channel factory, it needs improvements, but allows for quick channel creation. 
 
 ```javascript
 
@@ -126,7 +125,9 @@ angular.module('ng.channel', [])
 
 ```
 
-# Create your own channel service
+## Create your own channel service
+
+We can now use the EventChannel factory to create an individual service channel that has a cleary defined API.
 
 ```javascript
 
@@ -196,7 +197,7 @@ angular.module('myApp.security', ['ng.channel'])
 });
 ```
 
-# Summary and Future improvements
+## Summary and Future improvements
 
 
 That's it for now, please [submit an issue](https://github.com/eddie/eddie.github.io/issues) if you see any problems with this post or can offer any suggestions.  I have also created a package for this [angular-channel](https://github.com/eddie/angular-channel), it shouldn't be used in this state- but I hope to build upon this soon. All contributions welcome of course. 
