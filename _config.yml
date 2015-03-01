@@ -20,3 +20,5 @@ assets:
     - _assets/scripts
     - _assets/images
 
+kramdown:
+  input: GFM
