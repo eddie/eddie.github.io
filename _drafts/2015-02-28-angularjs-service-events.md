@@ -194,4 +194,7 @@ angular.module('myApp.security', ['ng.channel'])
 });
 ```
 
+That's it for now, please [submit an issue](https://github.com/eddie/eddie.github.io/issues) if you see any problems with this post or can offer any suggestions. 
+
+
 
