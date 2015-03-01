@@ -1,5 +1,5 @@
 ---
-title: AngularJS service events for state management
+title: AngularJS channels for inter-component communication
 tags: [angularjs]
 layout: post
 ---
