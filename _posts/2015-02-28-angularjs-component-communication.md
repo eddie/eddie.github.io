@@ -126,8 +126,6 @@ angular.module('ng.channel', [])
 
 ```
 
-# Example Usage
-
 # Create your own channel service
 
 ```javascript
