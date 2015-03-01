@@ -30,7 +30,7 @@ A crude implementation of this looks a little like this:
 
 service.js
 
-{% highlight javascript %}
+```javascript
 
 angular.module('myapp.security').factory('SecurityService', function($log){
 var service = {
@@ -60,7 +60,7 @@ var service = {
   return service;
 });
 
-{% endhighlight %}
+```
 
 This could then be used like so:
 
