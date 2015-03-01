@@ -1,5 +1,5 @@
 ---
-title: AngularJS channels for inter-component communication
+title: AngularJS channels
 tags: [angularjs]
 layout: post
 ---
