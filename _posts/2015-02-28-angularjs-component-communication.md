@@ -128,7 +128,7 @@ angular.module('ng.channel', [])
 
 # Example Usage
 
-## Create your own channel service
+# Create your own channel service
 
 ```javascript
 
@@ -160,7 +160,7 @@ angular.module('myApp.security').service('SecurityService', function(SecurityCha
 
 ```
 
-## Using the channel
+# Using the channel
 
 ```javascript
 
