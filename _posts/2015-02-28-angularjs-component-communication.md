@@ -30,7 +30,8 @@ A crude implementation of this looks a little like this:
 
 service.js
 
-```javascript
+{% highlight javascript %}
+
 angular.module('myapp.security').factory('SecurityService', function($log){
 var service = {
 
@@ -59,17 +60,19 @@ var service = {
   return service;
 });
 
-```
+{% endhighlight %}
 
 This could then be used like so:
 
-```javascript
+{% highlight javascript %}
+
 // Add account token from localStorage
 SecurityService.callbacks.onLogout.push(function(){
   delete $localStorage['token'];
   $state.go('login');
 });
-```
+
+{% endhighlight %}
 
 # Publ/Sub Approach
 
@@ -83,7 +86,7 @@ Based on the work of [Eric Burley](https://eburley.github.io/2013/01/31/angularj
 
 Below is a rough example of the channel factory, it needs improvements, but allows for quick channel creation.
 
-```javascript
+{% highlight javascript %}
 
 angular.module('ng.channel', [])
 
@@ -121,13 +124,15 @@ angular.module('ng.channel', [])
     }
 });
 
-```
+{% endhighlight %}
+
 
 # Example Usage
 
 ## Create your own channel service
 
-```javascript
+{% highlight javascript %}
+
 angular.module('myApp.security', ['ng.channel'])
   .service('SecurityChannel', function($rootScope, EventChannel) {
 
@@ -153,11 +158,13 @@ angular.module('myApp.security').service('SecurityService', function(SecurityCha
       }
     };
   });
-```
+{% endhighlight %}
+
 
 ## Using the channel
 
-```javascript
+{% highlight javascript %}
+
 
 angular.module('myApp.view1', ['ngRoute', 'myApp.security'])
 
@@ -176,7 +183,8 @@ angular.module('myApp.view1', ['ngRoute', 'myApp.security'])
       onLogoutCleanup();
     });
 });
-```
+
+{% endhighlight %}
 
 
 # Summary and Future improvements
@@ -185,14 +193,15 @@ So this implementation is a little messy, and could do with some improvements. I
 
 I imagine the channel setup could eventually look like this:
 
-```javascript
+{% highlight javascript %}
 
 angular.module('myApp.security', ['ng.channel'])
   .service('SecurityChannel', function($rootScope, EventChannel) {
 
     return EventChannel.create("SecurityChannel", ["onLogout"]);
 });
-```
+
+{% endhighlight %}
 
 That's it for now, please [submit an issue](https://github.com/eddie/eddie.github.io/issues) if you see any problems with this post or can offer any suggestions.  I have also created a package for this [angular-channel](https://github.com/eddie/angular-channel), it shouldn't be used in this state- but I hope to build upon this soon. All contributions welcome of course. 
 
