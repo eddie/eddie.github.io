@@ -10,12 +10,15 @@ Initially I was using [angular-app](https://github.com/angular-app/angular-app) 
 
 It had been a while since I developed an angular application, and after doing some digging, I couldn't find a general best practice for handling service events/callbacks cleanly. But, I was probably looking in the wrong places..
 
+<img style='float:right; margin-left:15px; ' src="/assets/images/3351889502_76f3695446_o.jpg"/>
+
 The requirements I had for service callbacks were:
 
 - Reduce coupling between components
 - Avoid using angular event anti-patterns
 - Ability to easily add callbacks to service
 - Service should declare which callbacks it supported
+
 
 ## First Attempt: Callbacks
 
@@ -27,6 +30,8 @@ This worked well, but had a couple issues:
 - Callback code coupled with service
 
 A crude implementation of this looks a little like this:
+
+
 
 ```javascript
 
