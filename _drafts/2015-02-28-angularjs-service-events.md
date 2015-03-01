@@ -77,12 +77,12 @@ I liked the previous approach, but I wanted something a little more managable. I
 
 It would allow me to keep a strict API for the events exposed by a service and help move the event implementation out of the service iteself. 
 
+Based on the work of [Eric Burley](https://eburley.github.io/2013/01/31/angularjs-watch-pub-sub-best-practices.html) and [Jim Lavin](http://codingsmackdown.tv/blog/2013/04/29/hailing-all-frequencies-communicating-in-angularjs-with-the-pubsub-design-pattern/) I created a reusable service to handle inter-component communication with AngularJS.
+
 
 
 ## Unsubscribe on $destroy
 
 # Further reading
 
-https://eburley.github.io/2013/01/31/angularjs-watch-pub-sub-best-practices.html
-http://codingsmackdown.tv/blog/2013/04/29/hailing-all-frequencies-communicating-in-angularjs-with-the-pubsub-design-pattern/
 
