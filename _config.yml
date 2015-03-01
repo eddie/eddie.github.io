@@ -9,7 +9,7 @@ twitter_username: moukiio
 github_username:  eddie
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 
 sass:
   sass_dir: assets/styles
