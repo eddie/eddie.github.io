@@ -79,9 +79,57 @@ It would allow me to keep a strict API for the events exposed by a service and h
 
 Based on the work of [Eric Burley](https://eburley.github.io/2013/01/31/angularjs-watch-pub-sub-best-practices.html) and [Jim Lavin](http://codingsmackdown.tv/blog/2013/04/29/hailing-all-frequencies-communicating-in-angularjs-with-the-pubsub-design-pattern/) I created a reusable service to handle inter-component communication with AngularJS.
 
+## Pub/Sub Channel Factory
 
+Below is a rough example of the channel factory, it needs improvements, but allows for quick channel creation.
 
-## Unsubscribe on $destroy
+```javascript
+
+angular.module('ng.channel', [])
+
+.factory('EventChannel', function($rootScope, $log) {
+
+    var createChannel = function(name) {
+
+      var getEventKey = function(eventName) {
+        return "CHANNEL:"+ name + ":" + eventName;
+      }
+
+      var emit = function(event, data) {
+        $rootScope.$broadcast(getEventKey(event), data);
+      };
+
+      var register = function(scope, event, handler) {
+
+        return scope.$on(getEventKey(event), function(event, args){
+          try {
+            handler(args);
+          } catch(e) {
+            $log.error('Channel:' + name +' event threw an error' + e);
+          }
+        });
+      };
+
+      return {
+        emit: emit,
+        register: register
+      };
+    };
+
+    return {
+      create: createChannel
+    }
+});
+
+```
+
+# Example Usage
+
+## Create your own channel service
+
+## Using the channel
+
+### Unsubscribe on $destroy
 
 # Further reading
 
