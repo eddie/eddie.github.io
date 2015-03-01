@@ -28,8 +28,6 @@ This worked well, but had a couple issues:
 
 A crude implementation of this looks a little like this:
 
-service.js
-
 ```javascript
 
 angular.module('myapp.security').factory('SecurityService', function($log){
@@ -87,7 +85,7 @@ Below is a rough example of the channel factory, it needs improvements, but allo
 
 ```javascript
 
-angular.module('ng.channel', [])
+angular.module('mouki.channel', [])
 
 .factory('EventChannel', function($rootScope, $log) {
 
@@ -131,7 +129,7 @@ We can now use the EventChannel factory to create an individual service channel 
 
 ```javascript
 
-angular.module('myApp.security', ['ng.channel'])
+angular.module('myApp.security', ['mouki.channel'])
   .service('SecurityChannel', function($rootScope, EventChannel) {
 
     var serviceChannel = EventChannel.create("SecurityChannel");
