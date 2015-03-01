@@ -182,7 +182,6 @@ angular.module('myApp.view1', ['ngRoute', 'myApp.security'])
 
 ```
 
-# Summary and Future improvements
 
 So this implementation is a little messy, and could do with some improvements. I would like to move more of the setup into createChannel, but I wonder if this could lead us back to the initial problem and create a confusing flow.
 
@@ -196,6 +195,9 @@ angular.module('myApp.security', ['ng.channel'])
     return EventChannel.create("SecurityChannel", ["onLogout"]);
 });
 ```
+
+# Summary and Future improvements
+
 
 That's it for now, please [submit an issue](https://github.com/eddie/eddie.github.io/issues) if you see any problems with this post or can offer any suggestions.  I have also created a package for this [angular-channel](https://github.com/eddie/angular-channel), it shouldn't be used in this state- but I hope to build upon this soon. All contributions welcome of course. 
 
